@@ -1,0 +1,19 @@
+@import "src/scss/variables";
+
+:host {
+  display: block;
+  width: 100%;
+  align-self: flex-start;
+  margin-top: ($material-navbar-height - $datatable-filter-bar-height) / 2;
+}
+
+search-input-with-filters.nav-searchbar {
+  background-color: mat-color($app-accent, emphasis);
+  max-width: 750px;
+
+  ::ng-deep {
+    .filter-button, .clear-button, .search-icon, .search-input::placeholder {
+      color: currentColor;
+    }
+  }
+}

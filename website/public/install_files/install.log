@@ -1,0 +1,147 @@
+"========================== INSTALLATION LOG SECTION ========================"
+[2023/03/25 06:54:11] Host: Windows NT SYSLP947 10.0 build 22621 (Windows 10) AMD64
+[2023/03/25 06:54:11] PHP version: 7.4.21
+[2023/03/25 06:54:11] Server software: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.21
+[2023/03/25 06:54:11] Operating system: WINNT
+[2023/03/25 06:54:11] Memory limit: -1
+[2023/03/25 06:54:11] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2023/03/25 06:54:14] Postback payload: Array
+(
+    [handler] => onCheckRequirements
+)
+
+[2023/03/25 06:54:14] Check requirements: start
+[2023/03/25 06:54:14] Check requirements: end
+[2023/03/25 06:54:14] Execute handler (onCheckRequirements): Array
+(
+    [PHP Version] => Array
+        (
+            [result] => 1
+            [errorMessage] => You need at least 7.3 PHP Version to install.
+        )
+
+    [PDO] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP PDO extension is required.
+        )
+
+    [XML] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP XML extension is required.
+        )
+
+    [Mbstring] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP mbstring extension is required.
+        )
+
+    [Fileinfo] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP fileinfo extension is required.
+        )
+
+    [OpenSSL] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP openssl extension is required.
+        )
+
+    [GD] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP GD extension is required.
+        )
+
+    [fpassthru] => Array
+        (
+            [result] => 1
+            [errorMessage] => "fpassthru" PHP function needs to be enabled.
+        )
+
+    [Curl] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP curl functionality needs to be enabled.
+        )
+
+    [Zip] => Array
+        (
+            [result] => 1
+            [errorMessage] => PHP ZipArchive extension needs to be installed.
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2023/03/25 06:54:16] Postback payload: Array
+(
+    [handler] => onCheckFileSystem
+)
+
+[2023/03/25 06:54:16] Check filesystem: start
+[2023/03/25 06:54:16] Check filesystem: end
+[2023/03/25 06:54:16] Execute handler (onCheckFileSystem): Array
+(
+    [0] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website
+            [result] => 1
+            [errorMessage] => 
+        )
+
+    [1] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/storage
+            [result] => 1
+            [errorMessage] => 
+        )
+
+    [2] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/storage/app
+            [result] => 1
+            [errorMessage] => 
+        )
+
+    [3] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/storage/logs
+            [result] => 1
+            [errorMessage] => 
+        )
+
+    [4] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/storage/framework
+            [result] => 1
+            [errorMessage] => 
+        )
+
+    [5] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/public/storage
+            [result] => 1
+            [errorMessage] => 
+        )
+
+    [6] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/.htaccess
+            [result] => 1
+            [errorMessage] => Make sure <strong>.htaccess</strong> file has been uploaded properly to your server and is writable.
+        )
+
+    [7] => Array
+        (
+            [path] => D:/Projects/DynamoDrive/website/public/.htaccess
+            [result] => 1
+            [errorMessage] => Make sure <strong>public/.htaccess</strong> file has been uploaded properly to your server and is writable.
+        )
+
+)
+

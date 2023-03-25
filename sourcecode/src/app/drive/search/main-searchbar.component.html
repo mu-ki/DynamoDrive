@@ -1,0 +1,9 @@
+<search-input-with-filters
+    class="nav-searchbar"
+    [compact]="true"
+    [searchControl]="searchControl"
+    [filters]="filters"
+    (inputFocus)="openSearchPage()"
+    (filterChange)="filterChange$.next($event)"
+    pluralName="files"
+></search-input-with-filters>

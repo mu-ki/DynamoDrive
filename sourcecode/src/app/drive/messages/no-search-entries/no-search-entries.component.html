@@ -1,0 +1,11 @@
+<div class="no-results-message" *ngIf="noQueryOrFilters$ | async">
+    <svg-image name="file-searching" class="icon"></svg-image>
+    <div class="main" trans>Begin typing or select a filter to search</div>
+    <div class="secondary" trans>Search for files, folders and other content.</div>
+</div>
+
+<div class="no-results-message" *ngIf="!(noQueryOrFilters$ | async)">
+    <svg-image name="file-searching" class="icon"></svg-image>
+    <div class="main" trans>No matches found.</div>
+    <div class="secondary" trans>Try another search with different query or filters.</div>
+</div>
