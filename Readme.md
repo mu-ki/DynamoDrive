@@ -1,0 +1,1 @@
+XAMPP Link : https://master.dl.sourceforge.net/project/xampp/XAMPP%20Windows/7.4.21/xampp-windows-x64-7.4.21-0-VC15-installer.exe?viasf=1
